@@ -6,11 +6,6 @@ const port = 3000
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-app.get('/', (req, res) => {
-    res.send('helloworld')
-    console.log(req.body)
-})
-
 app.post('/', (req, res) => {
     res.send('ACK')
     console.log(req.body)

