@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', (req, res) => {
-    res.send('ACK!')
+    res.send('ACK')
     console.log(req.body)
 })
 
